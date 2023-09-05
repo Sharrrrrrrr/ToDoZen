@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ToDoZen - Relax: One Task at a Time!</title>
+        <link rel="icon" href="img/Logo.png">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="left">
+                <div class="block" style="background-color: #F9F6EE; margin-bottom: 5px;">
+                    <div class="title_space">
+                        <h4>Favs</h4>
+                    </div>
+
+                    <div class="line" style="display: flex; height: 15px; align-items: center; justify-content: center;">
+                        <hr>
+                    </div>
+
+                    <div class="table">
+                        <ul id="favslist"></ul>
+                    </div>
+                </div>
+
+                <div class="block" style="background-color: #EBEEED; margin-top: 5px;">
+                    <div class="title_space">
+                        <h4>History</h4>
+                    </div>
+
+                    <div class="line" style="display: flex; height: 15px; align-items: center; justify-content: center;">
+                        <hr>
+                    </div>
+
+                    <div class="table">
+                        <ul id="historyList"></ul>
+                        <ul id="historyList2"></ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right">
+                <div class="head_block">
+                    <div class="name_space">
+                        <h4>TODOZEN</h4>
+                    </div>
+
+                    <div class="logo_space">
+                        <img src="img/Logo.png" alt="icon">
+                    </div>
+                </div>
+
+                <div class="mainlist_block">
+                    <div>
+                        <ul id="mainFavsList"></ul>
+                    </div>
+                    <div>
+                        <ul id="taskList"></ul>
+                    </div>
+                    <div>
+                        <ul id="mainHistoryList"></ul>
+                    </div>
+                </div>
+
+                <div class="foot_block">
+                    <div class="add_container">
+                        <div class="cros">
+                            <img src="img/pngegg.png" alt="">
+                        </div>
+
+                        <div class="textinput">
+                            <input type="text" id="taskInput" placeholder="Add A Task...">
+                        </div>
+
+                        <div class="button_div">
+                            <button id="addTask">
+                                <img src="img/send.png" style="max-width: 25px;">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <script src="main.js"></script>
+    </body>
+</html>
